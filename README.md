@@ -145,7 +145,7 @@ We believe in maintaining development control while fostering an engaged communi
 
 Join our Discord server for support, updates, and discussion:
 
-[Discord Server](#)
+[Discord Server](https://discord.gg/fuNMpwNe2v)
 
 ## Concept Inspiration
 
