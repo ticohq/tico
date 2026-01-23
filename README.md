@@ -235,7 +235,6 @@ tiicu incorporates the following open-source emulator cores, each maintaining th
 - The emulator development community whose dedication preserves gaming history
 - iiSU for design philosophy inspiration
 
-For complete license information and compliance details, see the [LICENSE](LICENSE) file.
 **Disclaimer:** This project is not affiliated with or endorsed by Nintendo. Nintendo Switch is a trademark of Nintendo Co., Ltd. tiicu is an independent homebrew application.
 
 **Closed Source Notice:** tiicu is proprietary software. Source code is not available for public distribution or modification. This repository exists solely for community engagement, release distribution, and issue tracking. However, the emulator cores used in tiicu are built from open-source projects - see the [LICENSE](LICENSE) file for detailed information.
