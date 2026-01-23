@@ -174,8 +174,68 @@ Users are responsible for legally obtaining games, required system files, and us
 - Gratitude to the emulator development community whose cores make this possible
 - Special acknowledgment to the developers of PPSSPP, Gambatte, mGBA, FCEUmm, and SwanStation
 
----
+## Credits
 
+### Emulator Cores
+
+tiicu incorporates the following open-source emulator cores, each maintaining their original licenses:
+
+- **[PPSSPP](https://github.com/tiicu/ppsspp-tiicu)** (PlayStation Portable)
+  - License: GPL v2.0+
+  - Copyright © 2012-2024 PPSSPP Project
+
+- **[Gambatte](https://github.com/tiicu/gambatte-libretro-tiicu)** (Game Boy / Game Boy Color)
+  - License: GPL v2.0
+  - Copyright © Sindre Aamås
+
+- **[mGBA](https://github.com/tiicu/mgba-tiicu)** (Game Boy Advance)
+  - License: Mozilla Public License 2.0
+  - Copyright © 2013-2024 Jeffrey Pfau
+
+- **[FCEUmm](https://github.com/libretro/libretro-fceumm)** (Nintendo Entertainment System)
+  - License: GPL v2.0
+  - Copyright © various contributors
+
+- **[SwanStation](https://github.com/libretro/swanstation)** (PlayStation)
+  - License: GPL v3.0
+  - Copyright © 2019-2024 Connor McLaughlin and contributors
+
+- **[Genesis Plus GX](https://github.com/ekeeke/Genesis-Plus-GX)** (Master System / Game Gear / Genesis / Sega CD)
+  - License: Custom Non-Commercial License
+  - Copyright © 1998-2024 Charles MacDonald, Eke-Eke, and contributors
+
+### Third-Party Libraries
+
+- **[ImGui](https://github.com/ocornut/imgui)** - Immediate Mode GUI
+  - License: MIT
+  - Copyright © 2014-2024 Omar Cornut
+
+- **[nlohmann/json](https://github.com/nlohmann/json)** - JSON for Modern C++
+  - License: MIT
+  - Copyright © 2013-2024 Niels Lohmann
+
+- **[libnx](https://github.com/switchbrew/libnx)** - Nintendo Switch Library
+  - License: ISC
+  - Copyright © 2017-2024 libnx Authors
+
+- **[libretro-common](https://github.com/libretro/libretro-common)** - Libretro Utilities
+  - License: Various permissive licenses (MIT, BSD, Public Domain)
+  - Copyright © libretro team and contributors
+
+### Music & Sound Design
+
+- **[Thaddeus Silva](https://thaddeussilva.bandcamp.com/)** - Original Compositions
+  - Menu Theme and UI Sound Effects
+  - License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+  - Composed for iiSU, used in tiicu
+
+### Special Thanks
+
+- All alpha testers and early supporters
+- The emulator development community whose dedication preserves gaming history
+- iiSU for design philosophy inspiration
+
+For complete license information and compliance details, see the [LICENSE](LICENSE) file.
 **Disclaimer:** This project is not affiliated with or endorsed by Nintendo. Nintendo Switch is a trademark of Nintendo Co., Ltd. tiicu is an independent homebrew application.
 
 **Closed Source Notice:** tiicu is proprietary software. Source code is not available for public distribution or modification. This repository exists solely for community engagement, release distribution, and issue tracking. However, the emulator cores used in tiicu are built from open-source projects - see the [LICENSE](LICENSE) file for detailed information.
