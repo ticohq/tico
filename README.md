@@ -90,7 +90,7 @@ tiicu does not include:
 -   BIOS files
 -   System firmware
 -   DRM circumvention tools
--   
+  
 Users are responsible for legal ownership of games and compliance with local laws.
 
 ----------
