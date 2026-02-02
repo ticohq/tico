@@ -97,10 +97,10 @@ Users are responsible for legal ownership of games and compliance with local law
 
 ## Documentation Files
 
--   `[LICENSE.md](https://github.com/tiicu/tiicu/blob/main/LICENSE.md)` → Legal structure and licensing    
--   `[CREDITS.txt](https://github.com/tiicu/tiicu/blob/main/CREDITS.txt)` → Attributions only
--   `[ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md)` → Asset and development model
--   `[ABOUT-STATIC-CORES-ON-SWITCH.md`](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Technical/legal architecture
+-   [LICENSE.md](https://github.com/tiicu/tiicu/blob/main/LICENSE.md) → Legal structure and licensing    
+-   [CREDITS.txt](https://github.com/tiicu/tiicu/blob/main/CREDITS.txt) → Attributions only
+-   [ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Asset and development model
+-   [ABOUT-STATIC-CORES-ON-SWITCH.md](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Technical/legal architecture
     
 
 ----------
