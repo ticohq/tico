@@ -1,210 +1,165 @@
 # tiicu License
 
-## Proprietary Frontend License
+**Copyright (c) 2025–2026 tiicu**
+All rights reserved.
 
-Copyright (c) 2025 tiicu 
-
-The tiicu frontend application (excluding emulator cores and third-party libraries) is proprietary software. All rights reserved.
-
-**This software is closed source and may not be:**
-- Modified
-- Reverse engineered
-- Redistributed in modified form
-- Used to create derivative works
-
-**This software may be:**
-- Downloaded and used for personal, non-commercial purposes
-- Redistributed in unmodified form with proper attribution
+This license governs the use, distribution, and legal status of the **tiicu frontend application** and its relationship to third-party components.
 
 ---
 
-## Open Source Emulator Cores
+## 1. Proprietary Frontend License
 
-tiicu incorporates emulator cores built from open-source projects. Each core retains its original license and copyright. The following cores are statically linked within tiicu:
+The **tiicu frontend application** (including its UI, UX, codebase, architecture, branding, and internal systems), excluding emulator cores and third-party libraries, is **proprietary software**.
 
-### PPSSPP (PlayStation Portable Emulator)
+### Prohibited:
 
-**Repository:** [https://github.com/tiicu/ppsspp-tiicu](https://github.com/tiicu/ppsspp-tiicu)
+* Modification
+* Reverse engineering
+* Decompilation or disassembly
+* Creation of derivative works
+* Redistribution in modified form
+* Commercial use without explicit written permission
 
-**License:** GPL v2.0+
+### Permitted:
 
-**Copyright:** Copyright (c) 2012-2024 PPSSPP Project
+* Personal, non-commercial use
+* Redistribution of **unmodified binaries** with proper attribution
 
-PPSSPP is licensed under the GNU General Public License v2.0 or later. The full license text and source code are available in the repository linked above.
-
-### Gambatte (Game Boy / Game Boy Color Emulator)
-
-**Repository:** [https://github.com/tiicu/gambatte-libretro-tiicu](https://github.com/tiicu/gambatte-libretro-tiicu)
-
-**License:** GPL v2.0
-
-**Copyright:** Copyright (c) Sindre Aamås
-
-Gambatte is licensed under the GNU General Public License v2.0. The full license text and source code are available in the repository linked above.
-
-### mGBA (Game Boy Advance Emulator)
-
-**Repository:** [https://github.com/tiicu/mgba-tiicu](https://github.com/tiicu/mgba-tiicu)
-
-**License:** Mozilla Public License 2.0
-
-**Copyright:** Copyright (c) 2013-2024 Jeffrey Pfau
-
-mGBA is licensed under the Mozilla Public License 2.0. The full license text and source code are available in the repository linked above.
-
-### FCEUmm (Nintendo Entertainment System Emulator)
-
-**Repository:** [https://github.com/libretro/libretro-fceumm](https://github.com/libretro/libretro-fceumm)
-
-**License:** GPL v2.0
-
-**Copyright:** Copyright (c) various contributors
-
-FCEUmm is licensed under the GNU General Public License v2.0. The full license text and source code are available in the repository linked above.
-
-### SwanStation (PlayStation Emulator)
-
-**Repository:** [https://github.com/libretro/swanstation](https://github.com/libretro/swanstation)
-
-**License:** GPL v3.0
-
-**Copyright:** Copyright (c) 2019-2024 Connor McLaughlin and contributors
-
-SwanStation is licensed under the GNU General Public License v3.0. The full license text and source code are available in the repository linked above.
-
-### Genesis Plus GX (Master System / Game Gear / Genesis / Sega CD Emulator)
-
-**Repository:** [https://github.com/ekeeke/Genesis-Plus-GX](https://github.com/ekeeke/Genesis-Plus-GX)
-
-**License:** Custom Non-Commercial License
-
-**Copyright:** Copyright (c) 1998-2024 Charles MacDonald, Eke-Eke, and contributors
-
-Genesis Plus GX is licensed under a custom non-commercial license. The software is free for non-commercial use only. Commercial use requires permission from the copyright holders. The full license text and source code are available in the repository linked above.
+No rights are granted except those explicitly stated in this license.
 
 ---
 
-## Third-Party Libraries
+## 2. Independent Implementation & Concept Use
 
-tiicu uses the following open-source libraries:
+tiicu is an **independent implementation** of publicly presented interface concepts and design ideas. The software is built entirely from original source code and original technical implementation.
 
-### ImGui
+No proprietary source code, internal assets, or protected implementation details from any third-party project have been accessed, copied, or used in the development of tiicu.
 
-**Repository:** [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
-
-**License:** MIT License
-
-**Copyright:** Copyright (c) 2014-2024 Omar Cornut
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-### JSON for Modern C++ (nlohmann/json)
-
-**Repository:** [https://github.com/nlohmann/json](https://github.com/nlohmann/json)
-
-**License:** MIT License
-
-**Copyright:** Copyright (c) 2013-2024 Niels Lohmann
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-### libnx
-
-**Repository:** [https://github.com/switchbrew/libnx](https://github.com/switchbrew/libnx)
-
-**License:** ISC License
-
-**Copyright:** Copyright (c) 2017-2024 libnx Authors
-
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-### libretro-common
-
-**Repository:** [https://github.com/libretro/libretro-common](https://github.com/libretro/libretro-common)
-
-**License:** Various permissive licenses (MIT, BSD, Public Domain)
-
-**Copyright:** Copyright (c) libretro team and contributors
-
-libretro-common is a collection of utility code used across libretro cores, licensed under various permissive licenses that allow free use, modification, and distribution.
+Conceptual inspiration does not imply code, asset, or implementation reuse.
 
 ---
 
-## Music and Sound Effects
+## 3. Emulator Cores & LibRetro Architecture
 
-**Music and sound effects composed by Thaddeus Silva for iiSU**
+tiicu is a **frontend application** that interfaces with emulator cores exclusively through the **LibRetro API**.
 
-**Website:** [https://thaddeussilva.bandcamp.com/](https://thaddeussilva.bandcamp.com/)
+* Emulator cores are independent software components
+* Emulator cores are not part of the tiicu codebase
+* Communication occurs only through standardized LibRetro interfaces
+* tiicu does not embed, merge, or integrate emulator core source code
 
-**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-Thaddeus Silva composed original music and sound effects for iiSU, which are used in tiicu:
-- Menu Theme
-- Open SFX
-
-Each composition is inspired by nostalgic video game composers and designed for the iiSU launcher.
-
-You are free to:
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material for any purpose, even commercially
-
-Under the following terms:
-- Attribution — You must give appropriate credit to Thaddeus Silva, provide a link to the license, and indicate if changes were made.
-
-Full license: [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+Emulator cores retain their **original licenses, copyrights, and authorship**.
 
 ---
 
-## GPL Compliance Notice
+## 4. Third-Party Software
 
-For emulator cores licensed under the GNU General Public License (GPL):
+tiicu integrates or interfaces with third-party open-source software components, including but not limited to:
 
-- Complete source code for each GPL-licensed core is available at the repositories listed above
-- tiicu uses static linking with GPL-licensed cores
-- Users may obtain, modify, and compile the core source code independently
-- Modified versions of the cores may be used with compatible frontend software
-- The GPL license applies only to the individual cores, not to the proprietary tiicu frontend
+* Emulator cores (GPL, MPL, custom licenses)
+* UI and system libraries (MIT, ISC, BSD, Public Domain)
+* Platform libraries and frameworks
 
----
+Each component is governed by its **own license terms**, which remain fully applicable.
 
-## Additional Notices
-
-### No Warranty
-
-THE SOFTWARE, EMULATOR CORES, AND THIRD-PARTY LIBRARIES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-### User Responsibilities
-
-Users are solely responsible for:
-- Obtaining legally owned ROM files and games
-- Acquiring necessary BIOS files where required
-- Compliance with all applicable laws regarding emulation and software usage
-- Understanding and respecting copyright laws in their jurisdiction
-
-### Trademarks
-
-- Nintendo, Nintendo Switch, Game Boy, Game Boy Color, Game Boy Advance, Nintendo Entertainment System, Super Nintendo Entertainment System are trademarks of Nintendo Co., Ltd.
-- PlayStation and PSP are trademarks of Sony Interactive Entertainment Inc.
-- All other trademarks are the property of their respective owners.
-
-tiicu is not affiliated with, endorsed by, or associated with Nintendo, Sony, or any other console manufacturer.
+This license does not override or replace any third-party license.
 
 ---
 
-## Contact & Support
+## 5. GPL Compliance Statement
 
-For questions about licensing or to report license compliance issues:
-- GitHub Issues: [tiicu repository issues](https://github.com/tiicu/tiicu/issues)
-- Discord: [Join our community](https://discord.gg/ADVaC3SvZE)
+For components licensed under the GNU General Public License (GPL):
 
-For specific questions about individual emulator core licenses, please refer to their respective repositories and maintainers.
+* Source code is provided by the original rights holders in their respective repositories
+* tiicu interfaces with cores through standardized APIs
+* Any modifications to GPL-licensed components (if ever required) will be:
+
+  * Developed independently
+  * Publicly released
+  * Fully license-compliant
+  * Distributed separately from the tiicu frontend
+
+This license applies **only** to the tiicu frontend and does not restrict rights granted by GPL-licensed components.
 
 ---
 
-**Last Updated:** January 2025
+## 6. Asset Usage
+
+All UI and interface elements in tiicu are generated **programmatically**.
+
+tiicu does not depend on embedded template files or proprietary asset packs.
+
+Where third-party assets are used:
+
+* They retain their original licenses
+* Attribution is provided where required
+* Licensing terms remain fully applicable
+
+User-provided assets are the sole responsibility of the user.
+
+---
+
+## 7. No Affiliation
+
+tiicu is not affiliated with, endorsed by, or associated with:
+
+* Nintendo Co., Ltd.
+* Sony Interactive Entertainment
+* Sega Corporation
+* Any console manufacturer or game publisher
+
+All trademarks are the property of their respective owners.
+
+---
+
+## 8. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+---
+
+## 9. Limitation of Liability
+
+tiicu and its developer(s) shall not be held liable for:
+
+* Misuse of the software
+* Illegal use of emulation software
+* Copyright violations by users
+* Improper acquisition of ROMs, BIOS files, or assets
+* License violations by third parties
+
+---
+
+## 10. User Responsibilities
+
+By using tiicu, the user agrees that they are solely responsible for:
+
+* Legally obtaining all games, ROMs, BIOS files, firmware, and system files
+* Compliance with local, national, and international copyright laws
+* Respecting all third-party licenses
+* Lawful use of emulation software
+* Lawful use of third-party intellectual property
+
+---
+
+## 11. Trademarks
+
+All product names, logos, and brands are property of their respective owners.
+
+Use of these names does not imply endorsement.
+
+---
+
+## 12. Governing Principle
+
+This license governs only the **tiicu frontend application**.
+
+It does not alter, replace, or override the licenses of any third-party software, emulator cores, libraries, or assets.
+
+---
+
+**Project Launch:** January 19, 2026
+**Last Updated:** February 2, 2026
+**Contact:** [ticolauncher@proton.me](mailto:ticolauncher@proton.me)
