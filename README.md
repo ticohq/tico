@@ -1,15 +1,15 @@
 
-# tiicu
+# tico
 
 The first custom emulation frontend for Nintendo Switch — a controller-first, native C++ interface designed for performance, simplicity, and long-term portability.
 
 ----------
 
-## What is tiicu?
+## What is tico?
 
-tiicu is a multi-platform emulation frontend focused on delivering a console-quality user experience.
+tico is a multi-platform emulation frontend focused on delivering a console-quality user experience.
 
-Instead of file browsers, configuration menus, and fragmented tools, tiicu provides a unified interface that automatically organizes games, manages assets, and launches embedded emulator cores with zero user configuration.
+Instead of file browsers, configuration menus, and fragmented tools, tico provides a unified interface that automatically organizes games, manages assets, and launches embedded emulator cores with zero user configuration.
 
 It is designed to feel like a real console UI — not a development tool.
 
@@ -17,11 +17,11 @@ It is designed to feel like a real console UI — not a development tool.
 
 ### Screenshots
 
-**Home Intro** ![Home Intro](https://github.com/tiicu/tiicu/blob/main/images/home.jpg?raw=true)
-**Homescreen** ![Homescreen](https://github.com/tiicu/tiicu/blob/main/images/homescreen.jpg?raw=true)
-**Console Selection** ![Launch Consoles](https://github.com/tiicu/tiicu/blob/main/images/consoles-launch.jpg?raw=true)
-**SNES Game Library** ![Launch SNES](https://github.com/tiicu/tiicu/blob/main/images/snes-launch.jpg?raw=true)
-**PlayStation Game Library** ![Launch PSX](https://github.com/tiicu/tiicu/blob/main/images/psx-launch.jpg?raw=true)
+**Home Intro** ![Home Intro](https://github.com/ticohq/tico/blob/main/images/home.jpg?raw=true)
+**Homescreen** ![Homescreen](https://github.com/ticohq/tico/blob/main/images/homescreen.jpg?raw=true)
+**Console Selection** ![Launch Consoles](https://github.com/ticohq/tico/blob/main/images/consoles-launch.jpg?raw=true)
+**SNES Game Library** ![Launch SNES](https://github.com/ticohq/tico/blob/main/images/snes-launch.jpg?raw=true)
+**PlayStation Game Library** ![Launch PSX](https://github.com/ticohq/tico/blob/main/images/psx-launch.jpg?raw=true)
 
 ----------
 
@@ -84,7 +84,7 @@ Discord: [https://discord.gg/DPgXGqJMkJ](https://discord.gg/DPgXGqJMkJ)
 
 ## Legal
 
-tiicu does not include:
+tico does not include:
 
 -   ROMs
 -   BIOS files
@@ -97,16 +97,16 @@ Users are responsible for legal ownership of games and compliance with local law
 
 ## Documentation Files
 
--   [LICENSE.md](https://github.com/tiicu/tiicu/blob/main/LICENSE.md) → Legal structure and licensing    
--   [CREDITS.txt](https://github.com/tiicu/tiicu/blob/main/CREDITS.txt) → Attributions only
--   [ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Asset and development model
--   [ABOUT-STATIC-CORES-ON-SWITCH.md](https://github.com/tiicu/tiicu/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Technical/legal architecture
+-   [LICENSE.md](https://github.com/ticohq/tico/blob/main/LICENSE.md) → Legal structure and licensing    
+-   [CREDITS.txt](https://github.com/ticohq/tico/blob/main/CREDITS.txt) → Attributions only
+-   [ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/ticohq/tico/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Asset and development model
+-   [ABOUT-STATIC-CORES-ON-SWITCH.md](https://github.com/ticohq/tico/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Technical/legal architecture
     
 
 ----------
 
 ## Disclaimer
 
-tiicu is an independent homebrew project.
+tico is an independent homebrew project.
 Not affiliated with Nintendo, Sony, or any console manufacturer.
 Nintendo Switch is a trademark of Nintendo Co., Ltd.
