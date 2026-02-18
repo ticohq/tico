@@ -62,6 +62,14 @@ This document lists the third-party software, libraries, assets, and conceptual 
 
 ---
 
+### YabaSanshiro — Saturn Emulator
+
+**Copyright:** © devmiyax and contributors
+**License:** GPL v2.0
+**Repository:** [https://github.com/devmiyax/yabause](https://github.com/devmiyax/yabause)
+
+---
+
 ## Third-Party Libraries
 
 ### Dear ImGui
