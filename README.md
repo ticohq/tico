@@ -20,8 +20,6 @@ It is designed to feel like a real console UI — not a development tool.
 **Home Intro** ![Home Intro](https://github.com/ticohq/tico/blob/main/images/home.jpg?raw=true)
 **Homescreen** ![Homescreen](https://github.com/ticohq/tico/blob/main/images/homescreen.jpg?raw=true)
 **Console Selection** ![Launch Consoles](https://github.com/ticohq/tico/blob/main/images/consoles-launch.jpg?raw=true)
-**SNES Game Library** ![Launch SNES](https://github.com/ticohq/tico/blob/main/images/snes-launch.jpg?raw=true)
-**PlayStation Game Library** ![Launch PSX](https://github.com/ticohq/tico/blob/main/images/psx-launch.jpg?raw=true)
 
 ----------
 
