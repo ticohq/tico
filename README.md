@@ -42,14 +42,7 @@ It is designed to feel like a real console UI — not a development tool.
 -   Auto-organization by system and region
 -   Direct pinning from library to home screen
 -   Structured save and asset directories
-    
 
-### Embedded Emulator Cores
-
--   Built-in, statically linked cores
--   No manual installation
--   No configuration required
--   Optimized builds for Nintendo Switch
     
 ----------
 
@@ -100,7 +93,6 @@ Users are responsible for legal ownership of games and compliance with local law
 -   [LICENSE.md](https://github.com/ticohq/tico/blob/main/LICENSE.md) → Legal structure and licensing    
 -   [CREDITS.txt](https://github.com/ticohq/tico/blob/main/CREDITS.txt) → Attributions only
 -   [ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/ticohq/tico/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Asset and development model
--   [ABOUT-STATIC-CORES-ON-SWITCH.md](https://github.com/ticohq/tico/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Technical/legal architecture
     
 
 ----------
