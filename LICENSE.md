@@ -63,14 +63,10 @@ Conceptual inspiration does not imply code, asset, or implementation reuse.
 
 ## 4. Emulator Cores & LibRetro Architecture
 
-tico is a **frontend application** that interfaces with emulator cores exclusively through the **LibRetro API**.
-
-* Emulator cores are independent software components
-* Emulator cores are not part of the tico codebase
-* Communication occurs only through standardized LibRetro interfaces
-* tico does not embed, merge, or integrate emulator core source code
-
-Emulator cores retain their **original licenses, copyrights, and authorship**.
+tico is a frontend application that interfaces with emulator cores through 
+standardized APIs. Emulator cores are independent software components, not 
+part of the tico codebase. tico does not embed, merge, or integrate emulator 
+core source code.
 
 ---
 

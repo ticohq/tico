@@ -9,7 +9,7 @@ The first custom emulation frontend for Nintendo Switch — a controller-first, 
 
 tico is a multi-platform emulation frontend focused on delivering a console-quality user experience.
 
-Instead of file browsers, configuration menus, and fragmented tools, tico provides a unified interface that automatically organizes games, manages assets, and launches embedded emulator cores with zero user configuration.
+Instead of file browsers, configuration menus, and fragmented tools, tico provides a unified interface that automatically organizes games, manages assets, and launches emulator cores — none of which are included in the tico binary itself.
 
 It is designed to feel like a real console UI — not a development tool.
 
@@ -20,8 +20,6 @@ It is designed to feel like a real console UI — not a development tool.
 **Home Intro** ![Home Intro](https://github.com/ticohq/tico/blob/main/images/home.jpg?raw=true)
 **Homescreen** ![Homescreen](https://github.com/ticohq/tico/blob/main/images/homescreen.jpg?raw=true)
 **Console Selection** ![Launch Consoles](https://github.com/ticohq/tico/blob/main/images/consoles-launch.jpg?raw=true)
-**SNES Game Library** ![Launch SNES](https://github.com/ticohq/tico/blob/main/images/snes-launch.jpg?raw=true)
-**PlayStation Game Library** ![Launch PSX](https://github.com/ticohq/tico/blob/main/images/psx-launch.jpg?raw=true)
 
 ----------
 
@@ -83,6 +81,8 @@ tico does not include:
 -   BIOS files
 -   System firmware
 -   DRM circumvention tools
+-   Emulator cores
+-   Core binaries into application
   
 Users are responsible for legal ownership of games and compliance with local laws.
 

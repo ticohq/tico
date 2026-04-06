@@ -1,10 +1,14 @@
-# tiicu — Credits
+# tico — Credits
 
-This document lists the third-party software, libraries, assets, and conceptual sources integrated into **tiicu**.
+This document lists the third-party software, libraries, assets, and conceptual sources integrated into **tico**.
 
 ---
 
 ## Emulator Cores
+
+The following emulator cores are not included in tico, but are officially 
+supported and recommended for use with the launcher. Credits and license 
+information are provided for user reference.
 
 ### PPSSPP — PlayStation Portable Emulator
 
@@ -70,6 +74,14 @@ This document lists the third-party software, libraries, assets, and conceptual 
 
 ---
 
+### Dolphin — GameCube / Wii Emulator
+
+**Copyright:** © 2003–2024 Dolphin Emulator Project
+**License:** GPL v2.0
+**Repository:** [https://github.com/dolphin-emu/dolphin](https://github.com/dolphin-emu/dolphin)
+
+---
+
 ## Third-Party Libraries
 
 ### Dear ImGui
@@ -104,6 +116,14 @@ This document lists the third-party software, libraries, assets, and conceptual 
 
 ---
 
+### rcheevos — RetroAchievements Client Library
+
+**Copyright:** © 2019–2024 RetroAchievements contributors
+**License:** MIT
+**Repository:** [https://github.com/RetroAchievements/rcheevos](https://github.com/RetroAchievements/rcheevos)
+
+---
+
 ## Music & Audio Assets
 
 ### Thaddeus Silva — Original Compositions
@@ -126,43 +146,45 @@ This document lists the third-party software, libraries, assets, and conceptual 
 
 ## Developer
 
-**tiicu** is developed by **Dan**.
+**tico** is developed by **Dan**.
 **Contact:** [ticolauncher@proton.me](mailto:ticolauncher@proton.me)
 
 ---
 
 ## License Structure
 
-tiicu is proprietary software with a closed-source codebase. It integrates multiple open-source emulator cores and libraries, each distributed under their respective licenses.
+tico is proprietary software with a closed-source codebase. It does not bundle 
+emulator cores or third-party libraries — each supported component is obtained 
+and used independently, under its own respective license.
 
-License compliance is governed by the original licenses of each integrated component. Copies of relevant licenses must be respected and distributed where legally required.
+Users are responsible for complying with the individual licenses of any cores 
+or libraries they obtain for use with tico.
 
 ---
 
 ## Legal Disclaimer
 
-tiicu is not affiliated with, endorsed by, or associated with any console manufacturer, hardware vendor, or game publisher, including but not limited to:
-
-* Nintendo Co., Ltd.
-* Sony Interactive Entertainment
-* Sega Corporation
+tico is an independent project not affiliated with, endorsed by, or associated 
+with any console manufacturer, hardware vendor, or game publisher, including but 
+not limited to Nintendo Co., Ltd., Sony Interactive Entertainment, and Sega 
+Corporation.
 
 Nintendo Switch is a trademark of Nintendo Co., Ltd.
 
-tiicu does not include BIOS files, system files, copyrighted games, ROMs, or DRM/copy-protection circumvention mechanisms.
+tico does not include ROMs, BIOS files, system firmware, emulator cores, or 
+DRM circumvention tools of any kind.
 
 ---
 
 ## User Responsibilities
 
-By using tiicu, the user accepts full responsibility for:
+By using tico, the user accepts full responsibility for legally obtaining all 
+game data, ROMs, BIOS files, firmware, and emulator cores, and for ensuring 
+their use complies with applicable copyright law and software licensing within 
+their jurisdiction.
 
-* Legally obtaining all game data, ROMs, BIOS files, firmware, and system files
-* Ensuring compliance with local, national, and international copyright laws
-* Respecting the licenses of all integrated open-source components
-* Lawful use of emulation software within their jurisdiction
-
-The developer of tiicu assumes no liability for misuse, unlawful distribution of copyrighted material, or violations of software licensing or intellectual property laws.
+The developer of tico assumes no liability for misuse or unlawful use of the 
+software.
 
 ---
 
