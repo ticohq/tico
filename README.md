@@ -1,4 +1,3 @@
-
 # tico
 
 The first custom emulation frontend for Nintendo Switch — a controller-first, native C++ interface designed for performance, simplicity, and long-term portability.
@@ -92,8 +91,6 @@ Users are responsible for legal ownership of games and compliance with local law
 
 -   [LICENSE.md](https://github.com/ticohq/tico/blob/main/LICENSE.md) → Legal structure and licensing    
 -   [CREDITS.txt](https://github.com/ticohq/tico/blob/main/CREDITS.txt) → Attributions only
--   [ABOUT-ASSETS-AND-DEVELOPMENT.md](https://github.com/ticohq/tico/blob/main/ABOUT-ASSETS-AND-DEVELOPMENT.md) → Asset and development model
-    
 
 ----------
 

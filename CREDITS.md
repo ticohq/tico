@@ -124,26 +124,6 @@ information are provided for user reference.
 
 ---
 
-## Music & Audio Assets
-
-### Thaddeus Silva — Original Compositions
-
-**Usage:** Menu theme and UI sound effects
-**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
-**Source:** [https://thaddeussilva.bandcamp.com/album/iisu-tracks](https://thaddeussilva.bandcamp.com/album/iisu-tracks)
-
----
-
-## Conceptual Inspiration
-
-### iiSU Concept Presentation
-
-**Creator:** UsagiShade
-**Video:** [https://www.youtube.com/watch?v=bpTpCR1IUts](https://www.youtube.com/watch?v=bpTpCR1IUts)
-**Release Date:** November 25, 2024
-
----
-
 ## Developer
 
 **tico** is developed by **Dan**.
