@@ -1,0 +1,19 @@
+name: Question
+description: Ask a question about tico.
+title: "[Question]: "
+labels:
+  - question
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions can often be answered faster on our Discord:
+        https://discord.gg/DPgXGqJMkJ
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
