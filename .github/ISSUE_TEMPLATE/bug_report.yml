@@ -1,0 +1,94 @@
+name: Bug Report
+description: Report a problem with tico.
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before submitting
+
+        - Search existing issues first.
+        - Make sure you're using the latest version of **tico**.
+        - If the problem is specific to an emulator/core, please use its dedicated repository instead.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched for existing issues.
+          required: true
+        - label: I am using the latest version of tico.
+          required: true
+        - label: This issue is about tico itself, not a specific emulator/core.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: tico version
+      placeholder: v1.2.3
+    validations:
+      required: true
+
+  - type: dropdown
+    id: model
+    attributes:
+      label: Nintendo Switch model
+      options:
+        - Erista
+        - Mariko
+        - Lite
+        - OLED
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      placeholder: 20.3.0
+    validations:
+      required: true
+
+  - type: input
+    id: cfw
+    attributes:
+      label: CFW
+      placeholder: Atmosphère 1.x.x
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Additional information
+      description: Screenshots, logs or any extra information.
